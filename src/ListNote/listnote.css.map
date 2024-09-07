@@ -1,0 +1,1 @@
+{"version":3,"sources":["listnote.scss","listnote.css","../cardstyle/card.scss"],"names":[],"mappings":"AAEA;EACI,aAAA;EACA,WAAA;EACA,mBAAA;ACDJ;ADGI;EACI,UAAA;EACA,aAAA;ACDR;ADGQ;EACI,0BAAA;EACA,cESC;EFRD,YAAA;EACA,iBAAA;ACDZ;ADGQ;EACI,qBEMG;ADPf;ADGQ;EACI,YAAA;EACA,aAAA;EACA,wBAAA;EAAA,mBAAA;ACDZ;ADGY;EACA,sBEHG;EFIH,cEND;EFOC,0BAAA;EACA,iBAAA;ACDZ","file":"listnote.css"}

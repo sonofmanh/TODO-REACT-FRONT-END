@@ -1,0 +1,66 @@
+.app {
+  width: 35vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 75vh;
+  background-color: rgba(7, 6, 6, 0.884);
+  align-items: baseline;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border-radius: 0.2em;
+  box-shadow: 0px 1px 10px rgb(241, 240, 240);
+}
+.app a {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0em;
+  margin: 0em;
+}
+.app a svg {
+  color: gold;
+  font-size: 0.5em;
+}
+.app form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.app form input {
+  width: 100%;
+  height: 3em;
+  padding-left: 0.4em;
+  text-transform: capitalize;
+  background: transparent;
+  color: #e4d9cc;
+  outline: none;
+  border: 1px solid #e4d9cc;
+  border-radius: 0.3em;
+}
+.app form textarea {
+  margin-top: 2em;
+  resize: none;
+  width: 100%;
+  height: 10em;
+  background-color: transparent;
+  color: #e4d9cc;
+  border-radius: 0.3em;
+  border: 1px solid #e4d9cc;
+}
+.app form textarea::-webkit-scrollbar {
+  width: 0;
+}
+.app form div {
+  width: 100%;
+}
+.app form div button {
+  text-transform: capitalize;
+  padding: 0.1em 0.3em;
+  font-size: 0.3em;
+  width: inherit;
+  border-radius: 0.3em;
+  outline: none;
+  border: none;
+  color: gold;
+  background-color: #272727;
+}/*# sourceMappingURL=newnote.css.map */

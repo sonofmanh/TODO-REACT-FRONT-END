@@ -1,0 +1,30 @@
+.rows {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.rows section {
+  gap: 0.2em;
+  display: flex;
+}
+.rows section > * {
+  text-transform: capitalize;
+  color: #e4d9cc;
+  border: none;
+  font-size: 1.3rem;
+}
+.rows section #negative {
+  background-color: red;
+}
+.rows section > a {
+  border: none;
+  outline: none;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.rows section > a #positive {
+  background-color: gold;
+  color: #272727;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}/*# sourceMappingURL=listnote.css.map */

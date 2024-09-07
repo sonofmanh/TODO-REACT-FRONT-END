@@ -1,0 +1,35 @@
+@import "../cardstyle/card";
+
+.rows {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+    section {
+        gap: 0.2em;
+        display: flex;
+    
+        & > * {
+            text-transform: capitalize;
+            color: $text-color;
+            border: none;
+            font-size: 1.3rem;
+        }
+        #negative {
+            background-color: $btn-negative;
+        }
+        & > a{
+            border: none;
+            outline: none;
+            height: fit-content;
+
+            #positive {
+            background-color: $btn-positive;
+            color: $bg-color;
+            text-transform: capitalize;
+            font-size: 1.3rem;
+
+        }
+        }
+    }
+}

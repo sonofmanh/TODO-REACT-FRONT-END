@@ -1,0 +1,46 @@
+.card {
+  width: 35vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 75vh;
+  background-color: rgba(7, 6, 6, 0.884);
+  align-items: baseline;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border-radius: 0.2em;
+  box-shadow: 0px 1px 10px rgb(241, 240, 240);
+  flex-direction: column;
+}
+.card div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.7em;
+}
+.card div span {
+  color: gold;
+  border: 1px solid yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.card div > * {
+  margin: 0em;
+}
+.card .context {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: -moz-max-content;
+  width: max-content;
+  border-top: 1px solid #e4d9cc;
+  margin-top: 0.2em;
+  padding-top: 0.2em;
+  min-width: 100%;
+  overflow-y: scroll;
+  height: 5.5em;
+}
+.card .context::-webkit-scrollbar {
+  width: 0;
+}/*# sourceMappingURL=card.css.map */
